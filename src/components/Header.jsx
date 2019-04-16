@@ -1,14 +1,19 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
-const Header = ({ text }) => <h1>{text}</h1>;
+import Nav from './Nav';
 
-Header.propTypes = {
-  text: PropTypes.string,
-};
+const StyledHeader = styled.div`
+  min-height: 100px;
+  background-color: #44475a;
+  width: 100%;
+  color: #fff;
+`;
 
-Header.defaultProps = {
-  text: '',
-};
+const Header = () => (
+  <StyledHeader>
+    <Nav />
+  </StyledHeader>
+);
 
 export default Header;
