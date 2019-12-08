@@ -7,9 +7,10 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop --open",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
     "serve": "gatsby serve",
+    "start": "npm run develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
@@ -32,6 +33,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^2.1.1",
     "prettier": "^1.16.4"
   },
   "repository": {
