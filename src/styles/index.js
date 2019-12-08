@@ -33,7 +33,7 @@ export const StyledContent = styled.div`
   flex-direction: column;
 `;
 
-export const StyledMainApp = styled.div`
+export const StyledApp = styled.div`
   align-items: center;
   display: flex;
   height: 100%;
