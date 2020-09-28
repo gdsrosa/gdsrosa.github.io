@@ -3,7 +3,6 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "import/no-unresolved": "off",
-    "object-curly-newline": "off",
-    "react/forbid-prop-types": "off"
+    "object-curly-newline": "off"
   }
 }

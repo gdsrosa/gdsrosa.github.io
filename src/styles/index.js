@@ -36,11 +36,8 @@ export const StyledContent = styled.div`
 export const StyledApp = styled.div`
   align-items: center;
   display: flex;
-  height: 100%;
   justify-content: center;
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
+  flex-direction: column;
 `;
 
 export const StyledSocials = styled.div`
